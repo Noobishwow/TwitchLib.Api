@@ -33,7 +33,7 @@ namespace Example
             API.Settings.AccessToken = "";               
 
             Monitor = new LiveStreamMonitorService(API, 60);
-            
+            r
             List<string> lst = new List<string>{ "ID1", "ID2" };
             Monitor.SetChannelsById(lst);            
 
